@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+
+.desktop{
+    background-color: white;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.body{
+    padding: 20px;
+    line-height: 23px;
+    font-family:"Outfit", sans-serif;
+    color:  hsl(30, 10%, 34%);
+    max-height: fit-content;
+    background-color: white;
+    border-radius: 20px;
+    
+}
+
+.title{
+    padding: 1rem;
+}
+
+body{
+    background-color: hsl(30, 54%, 90%);
+    align-items: center;
+    max-width: 430px;
+    max-height: 932px;
+}
+
+.title h1{
+    margin-bottom: 20px;
+    font-family: "Young Serif", serif;
+    line-height: 34px;
+    font-weight: lighter;
+    color:  hsl(12, 4%, 25%);
+    
+}
+
+.preparation{
+    background-color: hsl(330, 100%, 98%); 
+    padding-inline: 3rem;
+    padding-block: 1rem;
+    line-height: 40px;
+    margin-inline: 18px;
+    border-radius: 14px;
+}
+
+.preparation h3{
+    color: hsl(332, 51%, 32%);
+    margin-left: -20px;
+}
+
+.preparation ul li::marker{
+    color: hsl(332, 51%, 32%);
+}
+
+ol ul ,li::marker{
+    color: hsl(14, 45%, 36%);
+}
+
+.ingredients{
+    padding: 2rem;
+    line-height: 29px;
+}
+
+
+.ingredients h2{
+    color: hsl(14, 45%, 36%);
+    margin-left: -20px;
+    margin-bottom: 25px;
+    font-family: "Young Serif", serif;
+    font-weight: lighter;
+}
+
+.instructions{
+    padding: 2rem;
+    line-height: 24px;
+}
+
+.instructions h2{
+    color: hsl(14, 45%, 36%);
+    margin-left: -20px;
+    margin-bottom: 24px;
+    font-family: "Young Serif", serif;
+    font-weight: lighter;
+}
+
+.nutrions{
+    padding: 2rem;
+    line-height: 24px;
+}
+
+.nutrions p{
+    margin-bottom: 18px;
+}
+
+.desc {
+    margin-left: -20px;
+}
+
+.nutrions h2{
+    color: hsl(14, 45%, 36%);
+    margin-left: -20px;
+    margin-bottom: 25px;
+    font-family: "Young Serif", serif;
+    font-weight: lighter;
+}
+
+.table{
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: -20px;
+}
+
+.tableContent{
+    text-align: center;
+    width: 100%;
+    line-height: 47px;
+}
+
+.tableContent b{
+    color: hsl(14, 45%, 36%);
+}
+
+img{
+    max-width: 100%;
+    /* border-top-left-radius: 20px;
+    border-top-right-radius: 20px; */
+    border-radius: 20px;
+}
+
+
+
+.credit{
+position: relative;
+}
